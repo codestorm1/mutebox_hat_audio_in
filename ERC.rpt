@@ -1,0 +1,253 @@
+ERC report (2025-12-30T10:39:01-0800, Encoding UTF8)
+
+***** Sheet /
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 1200 mils): Label 'GPIO2/SDA1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 1300 mils): Label 'GPIO3/SCL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 1400 mils): Label 'GPIO4/GPCLK0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 1600 mils): Label 'GPIO17'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 1700 mils): Label 'GPIO27'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 1800 mils): Label 'GPIO22'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2000 mils): Label 'GPIO10/SPI0.MOSI'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2200 mils, 950 mils): Symbol #PWR04 Pin 1 [Power input, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2100 mils): Label 'GPIO9/SPI0.MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2200 mils): Label 'GPIO11/SPI0.SCLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2500 mils): Label 'GPIO5'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2600 mils): Label 'GPIO6'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2700 mils): Label 'GPIO13/PWM1'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(3000 mils, 950 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1250 mils, 2900 mils): Label 'GPIO26'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 1400 mils): Label 'GPIO14/TXD0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 1500 mils): Label 'GPIO15/RXD0'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(3000 mils, 3150 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 1900 mils): Label 'GPIO24'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 2100 mils): Label 'GPIO25'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 2200 mils): Label 'GPIO8/SPI0.CE0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 2300 mils): Label 'GPIO7/SPI0.CE1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 2600 mils): Label 'GPIO12/PWM0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 2800 mils): Label 'GPIO16'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 2900 mils): Label 'GPIO20/PCM.DIN'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3950 mils, 3000 mils): Label 'GPIO21/PCM.DOUT'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 3900 mils): Symbol U3 Pin 5 [Mic_Bias, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5550 mils, 3500 mils): Symbol U3 Pin 8 [AVDD, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4100 mils): Symbol U3 Pin 3 [VINL1/VIN1P, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 1650 mils): Symbol U2 Pin 7 [Zb, Output, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4200 mils): Symbol U3 Pin 1 [VINL2/VIN1M, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5650 mils, 3500 mils): Symbol U3 Pin 13 [DVDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5650 mils, 3500 mils): Symbol U3 Pin 13 [DVDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 1950 mils): Symbol U2 Pin 9 [Zc, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 4300 mils): Symbol U3 Pin 29 [VINL3/VIN4P, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4300 mils): Symbol U3 Pin 29 [VINL3/VIN4P, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5750 mils, 3500 mils): Symbol U3 Pin 14 [IOVDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5750 mils, 3500 mils): Symbol U3 Pin 14 [IOVDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 4400 mils): Symbol U3 Pin 27 [VINL4/VIN4M, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4400 mils): Symbol U3 Pin 27 [VINL4/VIN4M, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 2250 mils): Symbol U2 Pin 12 [Zd, Output, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4600 mils): Symbol U3 Pin 4 [VINR1/VIN2P, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4700 mils): Symbol U3 Pin 2 [VINR2/VIN2M, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 4800 mils): Symbol U3 Pin 30 [VINR3/VIN3P, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4800 mils): Symbol U3 Pin 30 [VINR3/VIN3P, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 4900 mils): Symbol U3 Pin 28 [VINR4/VIN3M, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 4900 mils): Symbol U3 Pin 28 [VINR4/VIN3M, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 5100 mils): Symbol U3 Pin 9 [XO, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3900 mils): Symbol U3 Pin 6 [VREF, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 5400 mils): Symbol U3 Pin 10 [XI, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 5400 mils): Symbol U3 Pin 10 [XI, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 5600 mils): Symbol U3 Pin 15 [SCKI, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5150 mils, 5600 mils): Symbol U3 Pin 15 [SCKI, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 5100 mils): Symbol U3 Pin 22 [MISO/GPIO0, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5650 mils, 5900 mils): Symbol U3 Pin 7 [AGND, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 5300 mils): Symbol U3 Pin 21 [GPIO1/INTA/DMIN, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 5400 mils): Symbol U3 Pin 20 [GPIO2/INTB/DMCLK, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 5500 mils): Symbol U3 Pin 19 [GPIO3/INTC, Bidirectional, Line]
+[multiple_net_names]: Both 3V3 and +3V3 are attached to the same items; 3V3 will be used in the netlist
+    ; warning
+    @(950 mils, 1100 mils): Global Label '3V3'
+    @(2200 mils, 950 mils): Symbol #PWR04 Pin 1 [Power input, Line]
+[multiple_net_names]: Both ID_SD and ID_SDA are attached to the same items; ID_SD will be used in the netlist
+    ; warning
+    @(1050 mils, 2400 mils): Global Label 'ID_SD'
+    @(1250 mils, 2400 mils): Label 'ID_SDA'
+[multiple_net_names]: Both I2S_SDIN and GPIO19{slash}PCM.FS are attached to the same items; I2S_SDIN will be used in the netlist
+    ; warning
+    @(1150 mils, 2800 mils): Global Label 'I2S_SDIN'
+    @(1250 mils, 2800 mils): Label 'GPIO19/PCM.FS'
+[multiple_net_names]: Both I2S_BCLK and GPIO18{slash}PCM.CLK are attached to the same items; I2S_BCLK will be used in the netlist
+    ; warning
+    @(4150 mils, 1600 mils): Global Label 'I2S_BCLK'
+    @(3950 mils, 1600 mils): Label 'GPIO18/PCM.CLK'
+[multiple_net_names]: Both SRC_SEL and GPIO23 are attached to the same items; SRC_SEL will be used in the netlist
+    ; warning
+    @(4150 mils, 1800 mils): Global Label 'SRC_SEL'
+    @(3950 mils, 1800 mils): Label 'GPIO23'
+[multiple_net_names]: Both ID_SC and ID_SCL are attached to the same items; ID_SC will be used in the netlist
+    ; warning
+    @(4150 mils, 2400 mils): Global Label 'ID_SC'
+    @(3950 mils, 2400 mils): Label 'ID_SCL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(4400 mils, 4100 mils): Global Label 'ANALOG_L+'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(4400 mils, 4600 mils): Global Label 'ANALOG_R+'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5000 mils, 4200 mils): Global Label 'ANALOG_L-'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5000 mils, 4700 mils): Global Label 'ANALOG_R-'
+[lib_symbol_mismatch]: Symbol 'R_Small' doesn't match copy in library 'Device'
+    ; warning
+    @(3700 mils, 6700 mils): Symbol R1 [R_Small]
+[lib_symbol_mismatch]: Symbol 'R_Small' doesn't match copy in library 'Device'
+    ; warning
+    @(4000 mils, 6700 mils): Symbol R2 [R_Small]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2800 mils, 2700 mils): Global Label 'I2C_SCL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2800 mils, 2800 mils): Global Label 'GPIO23_OPT_LOCK'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2800 mils, 3000 mils): Global Label 'I2C_SDA'
+[footprint_link_issues]: The current configuration does not include the footprint library 'WM8804GEDS_V'.
+    ; warning
+    @(3750 mils, 2500 mils): Symbol IC1 [WM8804GEDS_V]
+
+***** Sheet /Audio Inputs/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3050 mils, 3100 mils): Symbol IC1 Pin 4 [SDOUT/GPO2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4450 mils, 2400 mils): Symbol IC1 Pin 17 [TX0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4450 mils, 2500 mils): Symbol IC1 Pin 9 [CLKOUT, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4450 mils, 2700 mils): Symbol IC1 Pin 16 [MCLK, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4450 mils, 3000 mils): Symbol IC1 Pin 13 [DIN, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 3050 mils): Symbol J2 Pin 5 [HP, Passive, Line]
+
+ ** ERC messages: 80  Errors 64  Warnings 16
