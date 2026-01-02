@@ -1886,7 +1886,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA_GLOBAL"
+	(global_label "I2C_SDA"
 		(shape input)
 		(at 71.12 76.2 180)
 		(fields_autoplaced yes)
@@ -1898,7 +1898,7 @@
 		)
 		(uuid "96e0e649-c340-47c9-af3d-5d96899f1d0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4368 76.2 0)
+			(at 60.4197 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
