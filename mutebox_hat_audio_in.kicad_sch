@@ -6944,7 +6944,7 @@
 			)
 		)
 	)
-	(global_label "SPDIF_SDOUT"
+	(global_label "I2S_SDIN"
 		(shape input)
 		(at 134.62 36.83 180)
 		(fields_autoplaced yes)
@@ -6956,12 +6956,12 @@
 		)
 		(uuid "5eb5660a-67aa-444d-a15d-3dc53cabb945")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.2189 36.83 0)
+			(at 123.1335 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9362,7 +9362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 149.86 49.53 0)
 			(effects
 				(font
