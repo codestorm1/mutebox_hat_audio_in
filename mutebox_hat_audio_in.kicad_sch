@@ -5166,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 41.91) (xy 137.16 41.91)
+			(xy 135.89 41.91) (xy 137.16 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5196,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 44.45) (xy 137.16 44.45)
+			(xy 135.89 44.45) (xy 137.16 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5236,7 +5236,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 36.83) (xy 137.16 36.83)
+			(xy 135.89 36.83) (xy 137.16 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 34.29) (xy 137.16 34.29)
+			(xy 135.89 34.29) (xy 137.16 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6816,7 +6816,7 @@
 	)
 	(global_label "ADC_LRCLK"
 		(shape input)
-		(at 134.62 44.45 180)
+		(at 135.89 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6826,7 +6826,7 @@
 		)
 		(uuid "3dabb03c-0c27-488d-8211-861ba08bf5bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.1627 44.45 0)
+			(at 149.4327 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6926,7 @@
 	)
 	(global_label "ADC_BCLK"
 		(shape input)
-		(at 134.62 36.83 180)
+		(at 135.89 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6936,7 +6936,7 @@
 		)
 		(uuid "5eb5660a-67aa-444d-a15d-3dc53cabb945")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1054 36.83 0)
+			(at 123.3754 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,7 +7146,7 @@
 	)
 	(global_label "TOSLINK_BCLK"
 		(shape input)
-		(at 134.62 34.29 180)
+		(at 135.89 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7156,7 +7156,7 @@
 		)
 		(uuid "98d54bb3-2203-4189-89ac-0a685f8634ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.993 34.29 0)
+			(at 119.263 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7300,7 @@
 	)
 	(global_label "TOSLINK_LRCLK"
 		(shape input)
-		(at 134.62 41.91 180)
+		(at 135.89 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7310,7 +7310,7 @@
 		)
 		(uuid "c84954fd-ad2d-479c-aafc-d49e00d632b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9649 41.91 0)
+			(at 118.2349 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,7 +9413,7 @@
 		(dnp no)
 		(uuid "d0def95f-8f3a-4911-a929-430b0fbb7406")
 		(property "Reference" "U2"
-			(at 152.0033 26.67 0)
+			(at 151.765 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9422,7 @@
 			)
 		)
 		(property "Value" "74LVC157"
-			(at 152.0033 29.21 0)
+			(at 151.765 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
