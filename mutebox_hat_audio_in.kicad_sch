@@ -4516,16 +4516,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 91.44) (xy 114.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a0067b-6b14-4e2a-9d1e-26bd3049cb91")
-	)
-	(wire
-		(pts
 			(xy 22.86 27.94) (xy 24.13 27.94)
 		)
 		(stroke
@@ -4756,16 +4746,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 104.14) (xy 130.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad01d2c-5246-4cc0-bf00-eac878a23c1d")
-	)
-	(wire
-		(pts
 			(xy 135.89 49.53) (xy 137.16 49.53)
 		)
 		(stroke
@@ -4816,7 +4796,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 34.29) (xy 163.83 34.29)
+			(xy 162.56 34.29) (xy 164.465 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5226,16 +5206,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 114.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61cfef3f-4b42-4ae5-8952-31e0304d2766")
-	)
-	(wire
-		(pts
 			(xy 181.61 130.81) (xy 181.61 142.24)
 		)
 		(stroke
@@ -5253,6 +5223,16 @@
 			(type solid)
 		)
 		(uuid "62f43b49-7566-4f4c-b16f-9b95531f6d28")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63466236-7e17-4c99-9ef5-9b134642f30b")
 	)
 	(wire
 		(pts
@@ -5613,6 +5593,16 @@
 			(type solid)
 		)
 		(uuid "92611e1c-9e36-42b2-a6c7-1ef2cb0c90da")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a84e14-cfd7-4479-bb64-38d03991fea4")
 	)
 	(wire
 		(pts
@@ -6203,6 +6193,16 @@
 			(type default)
 		)
 		(uuid "e9a223c4-bbce-4b2c-8c4b-1a2445072d0b")
+	)
+	(wire
+		(pts
+			(xy 95.885 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c03de8-bdc4-49c8-abb6-9faec3fc2f15")
 	)
 	(wire
 		(pts
@@ -7168,7 +7168,7 @@
 	)
 	(global_label "I2S_BCLK"
 		(shape input)
-		(at 163.83 34.29 0)
+		(at 164.465 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7178,7 +7178,7 @@
 		)
 		(uuid "a072fff6-2cdc-445c-80df-903c90e0cc6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.7398 34.29 0)
+			(at 176.3748 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 96.52 180.34 0)
 			(effects
 				(font
@@ -8955,7 +8955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
 			(at 100.965 102.87 0)
 			(effects
 				(font
@@ -9608,7 +9608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
 			(at 100.965 121.92 0)
 			(effects
 				(font
