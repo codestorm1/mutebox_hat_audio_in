@@ -5086,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 106.045 60.96)
+			(xy 73.66 60.96) (xy 104.775 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 100.33 40.64)
+			(xy 73.66 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 73.66) (xy 101.6 73.66)
+			(xy 73.66 73.66) (xy 104.775 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6016,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 105.41 33.02)
+			(xy 82.55 33.02) (xy 104.14 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6116,7 +6116,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 45.72) (xy 105.41 45.72)
+			(xy 73.66 45.72) (xy 104.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6948,7 +6948,7 @@
 	)
 	(global_label "I2S_DOUT"
 		(shape input)
-		(at 101.6 73.66 0)
+		(at 104.775 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6958,7 +6958,7 @@
 		)
 		(uuid "67a8c33c-ec78-4742-a11d-9ff0c902e8bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.5703 73.66 0)
+			(at 116.7453 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7212,7 @@
 	)
 	(global_label "ID_SCL"
 		(shape input)
-		(at 106.045 60.96 0)
+		(at 104.775 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7222,7 +7222,7 @@
 		)
 		(uuid "a70eb416-a8af-474e-8eb0-8094d9a9a9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.4753 60.96 0)
+			(at 114.2053 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7234,7 @@
 	)
 	(global_label "I2S_BCLK"
 		(shape input)
-		(at 100.33 40.64 0)
+		(at 104.14 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7244,7 +7244,7 @@
 		)
 		(uuid "a85a8503-8f1b-4f55-b751-a606267616d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2398 40.64 0)
+			(at 116.0498 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7256,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 105.41 33.02 0)
+		(at 104.14 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7266,7 +7266,7 @@
 		)
 		(uuid "b6dc7b78-9d39-42e1-887b-0932339700c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.3608 33.02 0)
+			(at 111.0908 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7344,7 @@
 	)
 	(global_label "SRC_SEL"
 		(shape input)
-		(at 105.41 45.72 0)
+		(at 104.14 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7354,7 +7354,7 @@
 		)
 		(uuid "dc8109ba-3da7-41be-9fb5-c8b902f5a70c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.594 45.72 0)
+			(at 115.324 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
