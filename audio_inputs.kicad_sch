@@ -2582,7 +2582,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b2c2bb4-7e95-4016-a096-46710365dc35")
 		(property "Reference" "J2"
-			(at 127.635 66.6749 0)
+			(at 127 66.6749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,8 +2590,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AFBR-2624Z"
-			(at 127.635 69.2149 0)
+		(property "Value" "PLR237/T10BK"
+			(at 127 69.2149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OptoDevice:Toshiba_TORX170_TORX173_TORX193_TORX194"
+		(property "Footprint" "Connector_Audio:PLR237-T10BK"
 			(at 133.985 80.645 0)
 			(effects
 				(font

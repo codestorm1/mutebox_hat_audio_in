@@ -1,4 +1,4 @@
-26772869679488256
+26776404964604554
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8518,6 +8518,20 @@ Plug_3.5mm_CUI_SP-3541
 0
 4
 4
+Connector_Audio
+RCJ-043
+CUI/Same Sky RCJ-043 RCA Jack, Horizontal
+RCA jack audio connector
+0
+2
+2
+Connector_Audio
+Untitled
+
+
+0
+0
+0
 Connector_BarrelJack
 BarrelJack_CLIFF_FC681465S_SMT_Horizontal
 Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf
