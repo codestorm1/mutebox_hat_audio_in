@@ -1,4 +1,4 @@
-26771102038123620
+26772869679488256
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8501,6 +8501,13 @@ Connector_Audio
 MiniXLR-5_Switchcraft_TRAPC_Horizontal
 http://www.switchcraft.com/ProductSummary.aspx?Parent=620 http://www.switchcraft.com/Drawings/TRAPC_X-TRASM_X_SERIES_CD.PDF
 THT Mini XLR 5Pin right angle
+0
+5
+5
+Connector_Audio
+PLR237-T10BK
+Everlight PLR237/T10BK TOSLINK Optical Receiver
+TOSLINK optical receiver
 0
 5
 5
