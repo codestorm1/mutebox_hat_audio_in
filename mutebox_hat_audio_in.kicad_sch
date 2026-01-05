@@ -4996,6 +4996,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 71.12) (xy 60.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea8746c-e3fd-4e4b-92c1-19a7c941b5f8")
+	)
+	(wire
+		(pts
 			(xy 179.07 82.55) (xy 179.07 85.09)
 		)
 		(stroke
@@ -5976,16 +5986,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 71.12) (xy 60.96 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c991f9-d1d0-4a9a-a854-26dd936426a5")
-	)
-	(wire
-		(pts
 			(xy 67.31 165.1) (xy 67.31 175.26)
 		)
 		(stroke
@@ -6453,16 +6453,6 @@
 			(justify right bottom)
 		)
 		(uuid "31b15bb4-e7a6-46f1-aabc-e5f3cca1ba4f")
-	)
-	(label "GPIO19{slash}PCM.FS"
-		(at 31.75 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3388965f-bec1-490c-9b08-dbac9be27c37")
 	)
 	(label "GPIO10{slash}SPI0.MOSI"
 		(at 31.75 50.8 0)
@@ -7308,7 +7298,7 @@
 			)
 		)
 	)
-	(global_label "TOSLINK_LRCK"
+	(global_label "TOSLINK_LRCLK"
 		(shape input)
 		(at 134.62 41.91 180)
 		(fields_autoplaced yes)
@@ -7320,12 +7310,12 @@
 		)
 		(uuid "c84954fd-ad2d-479c-aafc-d49e00d632b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.247 41.91 0)
+			(at 116.9649 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

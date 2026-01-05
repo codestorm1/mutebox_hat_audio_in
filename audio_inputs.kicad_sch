@@ -2414,7 +2414,7 @@
 			)
 		)
 	)
-	(global_label "SPDIF_SDOUT"
+	(global_label "TOSLINK_DOUT"
 		(shape input)
 		(at 107.315 80.01 0)
 		(fields_autoplaced yes)
@@ -2426,7 +2426,7 @@
 		)
 		(uuid "4e8b75d8-1e77-4f66-a94d-1decf40c66b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9139 80.01 0)
+			(at 124.0025 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

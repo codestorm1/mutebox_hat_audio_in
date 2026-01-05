@@ -1,60 +1,17 @@
-ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
+ERC report (2026-01-04T17:00:49-0800, Encoding UTF8)
 
 ***** Sheet /
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(5400 mils, 1450 mils): Symbol U2 Pin 3 [I1a, Input, Line]
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
+[global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(900 mils, 775 mils): Horizontal Wire, length 50 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    @(1150 mils, 2800 mils): Global Label 'I2S_SDIN'
+[multiple_net_names]: Both I2S_BCLK and GPIO18{slash}PCM.CLK are attached to the same items; I2S_BCLK will be used in the netlist
     ; warning
-    @(950 mils, 775 mils): Vertical Wire, length 100 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    @(6450 mils, 1350 mils): Global Label 'I2S_BCLK'
+    @(3950 mils, 1600 mils): Label 'GPIO18/PCM.CLK'
+[multiple_net_names]: Both SRC_SEL and GPIO23 are attached to the same items; SRC_SEL will be used in the netlist
     ; warning
-    @(950 mils, 875 mils): Vertical Wire, length 325 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(950 mils, 875 mils): Horizontal Wire, length 900 mils
-[multiple_net_names]: Both +3V3 and I2C_SDA are attached to the same items; +3V3 will be used in the netlist
-    ; warning
-    @(7200 mils, 1050 mils): Global Label '+3V3'
-    @(900 mils, 1200 mils): Global Label 'I2C_SDA'
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(1850 mils, 775 mils): Symbol #FLG02 Pin 1 [Power output, Line]
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(1850 mils, 875 mils): Horizontal Wire, length 125 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(1850 mils, 875 mils): Vertical Wire, length 100 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(1975 mils, 875 mils): Wire, length 318 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(875 mils, 2400 mils): Horizontal Wire, length 1525 mils
-[same_local_global_label]: Local and global labels have same name
-    ; warning
-    @(875 mils, 2400 mils): Global Label 'ID_SDA'
-    @(4350 mils, 6900 mils): Label 'ID_SDA'
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(1150 mils, 3125 mils): Horizontal Wire, length 5375 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(1150 mils, 2800 mils): Vertical Wire, length 325 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(4075 mils, 1900 mils): Vertical Wire, length 650 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(2900 mils, 1900 mils): Horizontal Wire, length 1175 mils
-[multiple_net_names]: Both GPIO24 and SRC_SEL are attached to the same items; GPIO24 will be used in the netlist
-    ; warning
-    @(3825 mils, 1900 mils): Label 'GPIO24'
-    @(4075 mils, 2100 mils): Label 'SRC_SEL'
+    @(5300 mils, 2550 mils): Global Label 'SRC_SEL'
+    @(3950 mils, 1800 mils): Label 'GPIO23'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(3450 mils, 2700 mils): Vertical Wire, length 475 mils
@@ -63,62 +20,90 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
     @(3450 mils, 3175 mils): Symbol #PWR02 Pin 1 [Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(4075 mils, 2550 mils): Horizontal Wire, length 1325 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
     @(2900 mils, 2400 mils): Horizontal Wire, length 1275 mils
 [same_local_global_label]: Local and global labels have same name
     ; warning
     @(4175 mils, 2400 mils): Global Label 'ID_SCL'
-    @(4350 mils, 7000 mils): Label 'ID_SCL'
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    @(3950 mils, 2400 mils): Label 'ID_SCL'
+[multiple_net_names]: Both I2S_DOUT and GPIO20{slash}PCM.DIN are attached to the same items; I2S_DOUT will be used in the netlist
     ; warning
-    @(4700 mils, 1225 mils): Vertical Wire, length 375 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(4700 mils, 1225 mils): Horizontal Wire, length 1700 mils
-[multiple_net_names]: Both GPIO20{slash}PCM.DIN and PCM_DIN are attached to the same items; GPIO20{slash}PCM.DIN will be used in the netlist
-    ; warning
+    @(6475 mils, 1950 mils): Global Label 'I2S_DOUT'
     @(3950 mils, 2900 mils): Label 'GPIO20/PCM.DIN'
-    @(4100 mils, 2900 mils): Label 'PCM_DIN'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(5275 mils, 1450 mils): Horizontal Wire, length 125 mils
+    @(3625 mils, 3500 mils): Vertical Wire, length 800 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3725 mils, 3400 mils): Wire, length 141 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3725 mils, 3400 mils): Horizontal Wire, length 2875 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 3600 mils): Horizontal Wire, length 725 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 3900 mils): Symbol C8 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 3900 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3625 mils, 4300 mils): Horizontal Wire, length 350 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3625 mils, 4300 mils): Vertical Wire, length 700 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 4400 mils): Symbol C9 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 4400 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3975 mils, 4250 mils): Vertical Wire, length 50 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3975 mils, 4250 mils): Symbol J_L_IN1 Pin 2 [Ext, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3975 mils, 4300 mils): Horizontal Wire, length 1075 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4075 mils, 4400 mils): Wire, length 283 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 4700 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3775 mils, 4800 mils): Symbol J_R_IN1 Pin 1 [In, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3625 mils, 5000 mils): Horizontal Wire, length 350 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3625 mils, 5000 mils): Vertical Wire, length 1000 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4275 mils, 4600 mils): Horizontal Wire, length 875 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5150 mils, 4700 mils): Horizontal Wire, length 875 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4275 mils, 4700 mils): Wire, length 424 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6400 mils, 1650 mils): Horizontal Wire, length 75 mils
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
-    @(5275 mils, 1450 mils): Global Label 'I2S_SDIN'
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(5325 mils, 1650 mils): Horizontal Wire, length 75 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(5325 mils, 1950 mils): Horizontal Wire, length 75 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(6400 mils, 1225 mils): Vertical Wire, length 125 mils
-[multiple_net_names]: Both GPIO18{slash}PCM.CLK and PCM_CLK are attached to the same items; GPIO18{slash}PCM.CLK will be used in the netlist
-    ; warning
-    @(3950 mils, 1600 mils): Label 'GPIO18/PCM.CLK'
-    @(6400 mils, 1275 mils): Label 'PCM_CLK'
-[multiple_net_names]: Both GPIO19{slash}PCM.FS and PCM_FS are attached to the same items; GPIO19{slash}PCM.FS will be used in the netlist
-    ; warning
-    @(1250 mils, 2800 mils): Label 'GPIO19/PCM.FS'
-    @(6450 mils, 1650 mils): Label 'PCM_FS'
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(6525 mils, 1650 mils): Vertical Wire, length 1475 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(6400 mils, 1650 mils): Horizontal Wire, length 125 mils
+    @(6475 mils, 1650 mils): Global Label 'I2S_LRCLK'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(6400 mils, 1950 mils): Horizontal Wire, length 75 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(6475 mils, 1950 mils): Vertical Wire, length 950 mils
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(2900 mils, 2900 mils): Horizontal Wire, length 3575 mils
+    @(3625 mils, 6000 mils): Horizontal Wire, length 1025 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(6850 mils, 3225 mils): Vertical Wire, length 25 mils
@@ -128,31 +113,55 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
 [lib_symbol_mismatch]: Symbol 'R_Small' doesn't match copy in library 'Device'
     ; warning
     @(3700 mils, 6700 mils): Symbol R1 [R_Small]
-[multiple_net_names]: Both 3V3_A and AGND are attached to the same items; 3V3_A will be used in the netlist
-    ; warning
-    @(7450 mils, 3250 mils): Global Label '3V3_A'
-    @(4600 mils, 6150 mils): Global Label 'AGND'
 [lib_symbol_mismatch]: Symbol 'R_Small' doesn't match copy in library 'Device'
     ; warning
     @(4000 mils, 6700 mils): Symbol R2 [R_Small]
-[global_label_dangling]: Global label not connected anywhere else in the schematic
+[multiple_net_names]: Both 3V3_A and VREF are attached to the same items; 3V3_A will be used in the netlist
     ; warning
-    @(6550 mils, 4300 mils): Global Label 'ADC_SDOUT'
+    @(7450 mils, 3250 mils): Global Label '3V3_A'
+    @(7000 mils, 3550 mils): Label 'VREF'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2775 mils, 1825 mils): Vertical Wire, length 825 mils
+    @(1925 mils, 2050 mils): Vertical Wire, length 250 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2775 mils, 1825 mils): Horizontal Wire, length 3125 mils
+    @(1925 mils, 2050 mils): Horizontal Wire, length 1550 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3175 mils, 1900 mils): Horizontal Wire, length 200 mils
+    @(1925 mils, 2300 mils): Symbol C15 Pin 1 [Passive, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2700 mils, 1900 mils): Horizontal Wire, length 475 mils
+    @(2125 mils, 2125 mils): Vertical Wire, length 175 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3175 mils, 1900 mils): Symbol C15 Pin 1 [Passive, Line]
+    @(2125 mils, 2125 mils): Horizontal Wire, length 1250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2125 mils, 2300 mils): Symbol C16 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2325 mils, 2225 mils): Horizontal Wire, length 950 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2325 mils, 2225 mils): Vertical Wire, length 75 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1925 mils, 2600 mils): Horizontal Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1850 mils, 2600 mils): Horizontal Wire, length 75 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2325 mils, 2300 mils): Symbol C17 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2775 mils, 1850 mils): Vertical Wire, length 800 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2775 mils, 1850 mils): Horizontal Wire, length 3000 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2125 mils, 2600 mils): Horizontal Wire, length 200 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(2575 mils, 2750 mils): Vertical Wire, length 800 mils
@@ -161,61 +170,82 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
     @(2575 mils, 2750 mils): Horizontal Wire, length 200 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
+    @(2700 mils, 1900 mils): Horizontal Wire, length 575 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275 mils, 1900 mils): Vertical Wire, length 325 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275 mils, 1900 mils): Horizontal Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
     @(2775 mils, 2650 mils): Symbol U4 Pin 2 [RXIN, Input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3375 mils, 1900 mils): Symbol C16 Pin 1 [Passive, Line]
+    @(2200 mils, 3175 mils): Horizontal Wire, length 475 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3375 mils, 1900 mils): Horizontal Wire, length 200 mils
+    @(2200 mils, 3175 mils): Vertical Wire, length 275 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3225 mils, 2250 mils): Wire, length 71 mils
+    @(2200 mils, 3175 mils): Horizontal Wire, length 225 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3275 mils, 2250 mils): Horizontal Wire, length 50 mils
+    @(3375 mils, 1900 mils): Horizontal Wire, length 100 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2200 mils, 3050 mils): Vertical Wire, length 275 mils
+    @(3375 mils, 1900 mils): Vertical Wire, length 225 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3375 mils, 2200 mils): Vertical Wire, length 50 mils
+    @(1725 mils, 3475 mils): Symbol Y1 Pin 1 [1, Passive, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3575 mils, 1900 mils): Symbol C17 Pin 1 [Passive, Line]
+    @(1725 mils, 3475 mils): Horizontal Wire, length 125 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3575 mils, 1900 mils): Horizontal Wire, length 475 mils
+    @(1850 mils, 3475 mils): Symbol C6 Pin 1 [Passive, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2250 mils, 3350 mils): Wire, length 425 mils
+    @(1850 mils, 3475 mils): Horizontal Wire, length 400 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(1850 mils, 3675 mils): Horizontal Wire, length 350 mils
+    @(3275 mils, 2225 mils): Vertical Wire, length 25 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(1850 mils, 3675 mils): Vertical Wire, length 25 mils
+    @(3475 mils, 1900 mils): Horizontal Wire, length 575 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2200 mils, 3050 mils): Horizontal Wire, length 575 mils
+    @(3475 mils, 1900 mils): Vertical Wire, length 150 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3475 mils, 2250 mils): Horizontal Wire, length 50 mils
+    @(3375 mils, 2125 mils): Vertical Wire, length 125 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(3525 mils, 2250 mils): Wire, length 71 mils
+    @(2425 mils, 3175 mils): Wire, length 215 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3475 mils, 2050 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2600 mils, 3050 mils): Horizontal Wire, length 175 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2250 mils, 3475 mils): Wire, length 496 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(2775 mils, 3150 mils): Horizontal Wire, length 150 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2200 mils, 3625 mils): Vertical Wire, length 25 mils
+    @(1850 mils, 3800 mils): Vertical Wire, length 25 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2200 mils, 3625 mils): Symbol C7 Pin 2 [Passive, Line]
+    @(2200 mils, 3800 mils): Vertical Wire, length 25 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(2200 mils, 3675 mils): Vertical Wire, length 25 mils
+    @(2200 mils, 3750 mils): Vertical Wire, length 25 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2200 mils, 3775 mils): Symbol #PWR09 Pin 1 [Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(2575 mils, 3550 mils): Horizontal Wire, length 200 mils
@@ -237,6 +267,12 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(4125 mils, 1900 mils): Vertical Wire, length 550 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4050 mils, 2225 mils): Vertical Wire, length 25 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(4050 mils, 2225 mils): Vertical Wire, length 25 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(2575 mils, 3850 mils): Vertical Wire, length 100 mils
@@ -269,10 +305,10 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
     @(3975 mils, 3050 mils): Horizontal Wire, length 250 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(4600 mils, 2025 mils): Symbol C4 Pin 1 [Passive, Line]
+    @(4600 mils, 1900 mils): Vertical Wire, length 125 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(4600 mils, 1900 mils): Vertical Wire, length 125 mils
+    @(4600 mils, 2025 mils): Symbol C4 Pin 1 [Passive, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(3975 mils, 3150 mils): Horizontal Wire, length 250 mils
@@ -300,12 +336,27 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(3975 mils, 3950 mils): Horizontal Wire, length 100 mils
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(4075 mils, 3950 mils): Global Label 'GPIO23_OPT_LOCK'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(3275 mils, 4650 mils): Vertical Wire, length 325 mils
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
+    @(5375 mils, 1900 mils): Horizontal Wire, length 50 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5375 mils, 1900 mils): Vertical Wire, length 375 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4600 mils, 1900 mils): Horizontal Wire, length 775 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
     @(3375 mils, 4650 mils): Vertical Wire, length 325 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5375 mils, 2275 mils): Symbol J2 Pin 3 [VCCR, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(3275 mils, 4975 mils): Horizontal Wire, length 100 mils
@@ -317,21 +368,14 @@ ERC report (2026-01-04T14:24:15-0800, Encoding UTF8)
     @(3450 mils, 4975 mils): Symbol #PWR08 Pin 1 [Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(5900 mils, 1825 mils): Vertical Wire, length 825 mils
+    @(5775 mils, 1850 mils): Vertical Wire, length 825 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5375 mils, 3075 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5375 mils, 3175 mils): Symbol #PWR010 Pin 1 [Power input, Line]
 
 ***** Sheet /Audio Inputs/
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(3275 mils, 2250 mils): Symbol U4 Pin 1 [VDD, Power input, Line]
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(3375 mils, 2250 mils): Symbol U4 Pin 14 [VDD, Power input, Line]
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(3475 mils, 2250 mils): Symbol U4 Pin 28 [VDD, Power input, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(3975 mils, 3350 mils): Symbol U4 Pin 25 [SDA, Bidirectional, Line]
-    @(1850 mils, 775 mils): Symbol #FLG02 Pin 1 [Power output, Line]
 
- ** ERC messages: 107  Errors 4  Warnings 103
+ ** ERC messages: 123  Errors 0  Warnings 123
