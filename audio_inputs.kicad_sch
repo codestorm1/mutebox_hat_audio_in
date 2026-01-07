@@ -3154,7 +3154,7 @@
 		(fields_autoplaced yes)
 		(uuid "930e24e0-fe6e-40b6-926e-74251b0a7d69")
 		(property "Reference" "Y1"
-			(at 47.625 83.1849 90)
+			(at 48.26 83.1849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(property "Value" "12.288 MHz"
-			(at 47.625 85.7249 90)
+			(at 48.26 85.7249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
