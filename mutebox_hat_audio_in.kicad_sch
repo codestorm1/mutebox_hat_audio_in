@@ -4403,10 +4403,22 @@
 		(uuid "c89b6c63-0c7d-44a9-a594-9832d27f6530")
 	)
 	(junction
+		(at 149.86 23.495)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b0d4f3-2b43-493d-af9d-f58d8a287b53")
+	)
+	(junction
 		(at 76.2 50.8)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "ce83728b-bebd-48c2-8734-b6a50d837931")
+	)
+	(junction
+		(at 149.86 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d02d5781-0f69-408f-abaa-95e6e6cf3cf7")
 	)
 	(junction
 		(at 173.99 82.55)
@@ -4509,10 +4521,6 @@
 	(no_connect
 		(at 31.75 55.88)
 		(uuid "0ddfdd4a-d972-4ee7-a52d-ea2735af5fac")
-	)
-	(no_connect
-		(at 100.33 38.1)
-		(uuid "13cbd3df-8fbf-4cf5-ac90-128f91aeb904")
 	)
 	(no_connect
 		(at 31.75 35.56)
@@ -5808,7 +5816,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 100.33 38.1)
+			(xy 73.66 38.1) (xy 104.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6148,6 +6156,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 23.495) (xy 149.86 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92071a0-6838-44d6-bd86-d31517a2efe6")
+	)
+	(wire
+		(pts
 			(xy 137.16 57.15) (xy 137.16 59.69)
 		)
 		(stroke
@@ -6215,6 +6233,16 @@
 			(type solid)
 		)
 		(uuid "c373340b-844b-44cd-869b-a1267d366977")
+	)
+	(wire
+		(pts
+			(xy 149.86 23.495) (xy 180.34 23.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d81d23-af9c-4c26-9136-bb0b771a648c")
 	)
 	(wire
 		(pts
@@ -6548,7 +6576,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 23.495) (xy 180.34 23.495)
+			(xy 116.84 23.495) (xy 149.86 23.495)
 		)
 		(stroke
 			(width 0)
@@ -6856,6 +6884,16 @@
 		)
 		(uuid "4971e5ec-9aa4-4d54-bd63-32d94802e698")
 	)
+	(label "GPIO19{slash}PCM_FS"
+		(at 47.625 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f18c236-d4bf-40ec-8fe6-fa076f1fc75c")
+	)
 	(label "GPIO4{slash}GPCLK0"
 		(at 31.75 35.56 0)
 		(effects
@@ -6905,16 +6943,6 @@
 			(justify right bottom)
 		)
 		(uuid "64ee07d4-0247-486c-a5b0-d3d33362f168")
-	)
-	(label "GPIO15{slash}RXD0"
-		(at 100.33 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6638ca0d-5409-4e89-aef0-b0f245a25578")
 	)
 	(label "GPIO16"
 		(at 100.33 71.12 180)
@@ -7045,6 +7073,16 @@
 			(justify right bottom)
 		)
 		(uuid "dd6c1ab1-463a-460b-93e3-6e17d4c06611")
+	)
+	(label "GPIO 15{slash}UART0"
+		(at 83.82 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f8fe99-a3b7-448f-9d15-ba9d9653aa11")
 	)
 	(label "GPIO11{slash}SPI0.SCLK"
 		(at 31.75 55.88 0)
@@ -7254,6 +7292,28 @@
 			)
 		)
 	)
+	(global_label "I2S_LRCLK"
+		(shape input)
+		(at 104.14 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "561f81b4-d7b2-455d-ae78-675b1e04a662")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.0779 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_BCLK"
 		(shape input)
 		(at 166.37 104.14 0)
@@ -7408,7 +7468,7 @@
 			)
 		)
 	)
-	(global_label "I2S_SDIN"
+	(global_label "I2S_LRCLK"
 		(shape input)
 		(at 29.21 71.12 180)
 		(fields_autoplaced yes)
@@ -7420,12 +7480,12 @@
 		)
 		(uuid "7d1f0f28-0499-484c-a572-bd049964396e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.6965 71.12 0)
+			(at 16.2721 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
