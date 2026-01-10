@@ -2661,10 +2661,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29201b9f-4ce7-4d35-81b1-7ee4fa83e055")
 		(property "Reference" "R7"
-			(at 70.485 57.1499 0)
+			(at 64.135 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2672,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 70.485 59.6899 0)
+			(at 64.135 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
