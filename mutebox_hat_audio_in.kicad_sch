@@ -4367,12 +4367,6 @@
 		(uuid "b56c20c7-7bbb-47f8-b058-e91e47ba019a")
 	)
 	(junction
-		(at 120.65 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0ef1383-a90c-45b1-9286-6673d6fc9369")
-	)
-	(junction
 		(at 76.2 63.5)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -4425,6 +4419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc8cfb41-726d-410d-b9f4-0042d9ad7a5a")
+	)
+	(junction
+		(at 143.51 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df31abea-202c-48ff-b0cd-bb625d8af678")
 	)
 	(junction
 		(at 91.44 180.34)
@@ -4867,16 +4867,6 @@
 			(type solid)
 		)
 		(uuid "0ee91a98-576f-43c1-89f6-61acc2cb1f13")
-	)
-	(wire
-		(pts
-			(xy 116.84 156.21) (xy 120.65 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "103a5831-090d-43ae-ba3d-842d0de4c099")
 	)
 	(wire
 		(pts
@@ -7006,28 +6996,6 @@
 			)
 		)
 	)
-	(global_label "AGND"
-		(shape input)
-		(at 116.84 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21fdc26d-89f5-4352-a1ca-8343b597ea18")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.8794 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_LRCLK"
 		(shape input)
 		(at 135.89 41.91 180)
@@ -8287,6 +8255,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e8bc09-3ce8-4c18-87c5-065a23fb3d5b")
+		(property "Reference" "#PWR09"
+			(at 143.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5fdc3f2-aa06-4f26-b041-6ce8511ae728")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 173.99 81.915 0)
 		(unit 1)
@@ -8783,7 +8817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 178.1302 34.29 0)
 			(effects
 				(font
@@ -10160,7 +10194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127 144.018 90)
 			(effects
 				(font

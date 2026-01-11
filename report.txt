@@ -1,0 +1,109 @@
+Info: Total warnings: 2, errors: 1.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C4:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C8:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C9:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C10:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C12:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'FB1:Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder'.
+Info: Processing symbol 'J1:Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:Connector_Audio:PLR237-T10BK'.
+Info: Processing symbol 'JP1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'J_L_IN1:Connector_Audio:RCJ-043'.
+Info: Processing symbol 'J_R_IN1:Connector_Audio:RCJ-043'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'Y3:Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm'.
+Info: Processing symbol 'U4:Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm'.
+Info: Processing symbol 'U3:Package_SO:TSSOP-32_6.1x11mm_P0.65mm'.
+Info: Processing symbol 'U2:Package_SO:SOIC-16_3.9x9.9mm_P1.27mm'.
+Info: Processing symbol 'U1:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Added R14 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Changed R14 value from R_0805_2012Metric_Pad1.20x1.40mm_HandSolder to 33.
+Updated R14 symbol association from  to /ed6c4043-c955-4a5c-8ff5-c5ecf2f94b57.
+Updated R14 fields.
+Updated R14 sheetname to '/'.
+Updated R14 sheetfile to 'mutebox_hat_audio_in.kicad_sch'.
+Updated R14 footprint filters to 'R_*'.
+Connected R14 pin 2 to Net-(U3-SCKI).
+Connected R14 pin 1 to Net-(Y3-OUT).
+Changed REF** reference designator to R14.
+Added R15 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Changed REF** reference designator to R15.
+Updated R15 symbol association from  to /69671d55-966b-4bba-8a79-dc8715674913/149e3671-a2e7-4e5a-a5ae-fd6234f6b31c.
+Connected C2 pin 2 to GND.
+Updated R15 fields.
+Updated R15 sheetname to '/Audio Inputs/'.
+Updated R15 sheetfile to 'audio_inputs.kicad_sch'.
+Updated R15 footprint filters to 'R_*'.
+Connected R15 pin 2 to Net-(U4-XI).
+Connected R15 pin 1 to GND.
+Connected C2 pin 1 to +3V3.
+Updated C2 footprint filters to 'C_*'.
+Added R17 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Changed REF** reference designator to R17.
+Changed R17 value from R_0805_2012Metric_Pad1.20x1.40mm_HandSolder to 10k.
+Updated R17 symbol association from  to /69671d55-966b-4bba-8a79-dc8715674913/197105cf-0099-4d37-9300-91a7ef766d10.
+Updated R17 fields.
+Updated R17 sheetname to '/Audio Inputs/'.
+Updated R17 sheetfile to 'audio_inputs.kicad_sch'.
+Updated R17 footprint filters to 'R_*'.
+Connected R17 pin 1 to GND.
+Connected R17 pin 2 to Net-(U4-PD1).
+Updated C2 sheetfile to 'mutebox_hat_audio_in.kicad_sch'.
+Added R18 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Changed REF** reference designator to R18.
+Changed R18 value from R_0805_2012Metric_Pad1.20x1.40mm_HandSolder to 10k.
+Updated R18 symbol association from  to /69671d55-966b-4bba-8a79-dc8715674913/c4e370ab-1ede-4fca-a23b-9896227ee106.
+Updated R18 fields.
+Updated R18 sheetname to '/Audio Inputs/'.
+Updated R18 sheetfile to 'audio_inputs.kicad_sch'.
+Updated R18 footprint filters to 'R_*'.
+Connected R18 pin 1 to +3V3.
+Connected R18 pin 2 to Net-(U4-FMT1).
+Updated C2 sheetname to '/'.
+Added R19 (footprint 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder').
+Changed REF** reference designator to R19.
+Changed R19 value from R_0805_2012Metric_Pad1.20x1.40mm_HandSolder to 10k.
+Updated R19 symbol association from  to /69671d55-966b-4bba-8a79-dc8715674913/f8ad51c4-cd28-4db7-a3ab-111388e0e37a.
+Updated R19 fields.
+Updated R19 sheetname to '/Audio Inputs/'.
+Updated R19 sheetfile to 'audio_inputs.kicad_sch'.
+Updated R19 footprint filters to 'R_*'.
+Connected R19 pin 1 to GND.
+Connected R19 pin 2 to Net-(U4-FMT0).
+Updated C2 fields.
+Updated C2 symbol association from  to /5f2f481c-a584-4dec-b0f6-551199f2b429.
+Changed C2 value from C_0805_2012Metric_Pad1.18x1.45mm_HandSolder to C.
+Changed R15 value from R_0805_2012Metric_Pad1.20x1.40mm_HandSolder to 10k.
+
+Changed REF** reference designator to C2.
+Added C2 (footprint 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder').
+
+Warning: No net found for component U3 pad 31 (no pin 31 in symbol).
+Warning: No net found for component U3 pad 32 (no pin 32 in symbol).
+Error: J2 pad 8 not found in Connector_Audio:PLR237-T10BK.
+
+
+Info: Total warnings: 2, errors: 1.
