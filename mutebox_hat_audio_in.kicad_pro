@@ -59,12 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|111950000|91150000|cf3eb0d3-3a98-408b-ab4a-2466771929e1|00000000-0000-0000-0000-000000000000",
-          "dot overlaps.  this is coming from the custom symbol"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
