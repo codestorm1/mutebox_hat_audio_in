@@ -585,4 +585,15 @@
 		(uuid "843e5d1c-3671-4ec8-9a63-87f507d00f9b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/mutebox.pretty/Same_Sky_RCJ-042.step"
+		(offset
+			(xyz -10 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
