@@ -999,7 +999,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "GND"
@@ -1183,6 +1183,12 @@
 		(uuid "01c9f583-67df-4773-b4ec-acf10f4cd333")
 	)
 	(junction
+		(at 136.525 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17413231-41d4-418a-9e42-47ca503809ba")
+	)
+	(junction
 		(at 59.69 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1277,12 +1283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b0fd4a7-6667-48b2-899f-56f89b8b0f33")
-	)
-	(junction
-		(at 136.525 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b60bd2e-6615-40f9-a427-123749a93ddf")
 	)
 	(junction
 		(at 85.725 126.365)
@@ -1542,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 48.26) (xy 137.795 48.26)
+			(xy 116.84 48.26) (xy 136.525 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1602,6 +1602,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.825 43.18) (xy 123.825 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57689f3b-d272-4861-9be2-bf89329a4310")
+	)
+	(wire
+		(pts
 			(xy 59.69 90.17) (xy 59.69 97.79)
 		)
 		(stroke
@@ -1629,6 +1639,16 @@
 			(type default)
 		)
 		(uuid "681e8293-84ae-433e-8d2b-9996710cfcc7")
+	)
+	(wire
+		(pts
+			(xy 136.525 48.26) (xy 137.795 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69236cca-b5e2-4d12-89b9-b2ede6f5c9d0")
 	)
 	(wire
 		(pts
@@ -1702,16 +1722,6 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 48.26) (xy 136.525 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888a8ec3-448c-435e-a74f-78eeadb2694f")
-	)
-	(wire
-		(pts
 			(xy 102.87 60.96) (xy 102.87 85.09)
 		)
 		(stroke
@@ -1749,6 +1759,16 @@
 			(type default)
 		)
 		(uuid "984320b5-da92-48dd-af4b-51f8d4f54e8b")
+	)
+	(wire
+		(pts
+			(xy 136.525 48.26) (xy 136.525 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e054f90-2d0c-4498-8fa5-a0802ff84f1d")
 	)
 	(wire
 		(pts
@@ -1809,6 +1829,16 @@
 			(type default)
 		)
 		(uuid "b6115d86-5ce9-4ba3-9a5b-9b3d62f45b72")
+	)
+	(wire
+		(pts
+			(xy 133.985 43.18) (xy 123.825 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83e2e07-c7c2-4dae-9819-0ea7195b30e7")
 	)
 	(wire
 		(pts
@@ -1972,16 +2002,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 136.525 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74d5c7c-607a-427a-95da-c6c089361811")
-	)
-	(wire
-		(pts
 			(xy 59.69 97.79) (xy 61.595 97.79)
 		)
 		(stroke
@@ -2019,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "f687acda-04b4-41ea-aaa8-2ba1e4415a7b")
+	)
+	(wire
+		(pts
+			(xy 133.985 57.785) (xy 133.985 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f938e3bc-19c9-4591-a20d-e177a6a02bed")
 	)
 	(wire
 		(pts
@@ -2213,7 +2243,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 54.61 64.135 0)
+			(at 51.435 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,87 +2288,6 @@
 			(project "mutebox_hat_audio_in"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PLR237/T10BK:PLR237_T10BK")
-		(at 136.525 57.785 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a96249a-e620-4b21-b0e6-d06422b288b6")
-		(property "Reference" "J2"
-			(at 143.51 76.8349 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PLR237/T10BK"
-			(at 143.51 79.3749 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PLR237/T10BK_EVE"
-			(at 136.525 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PLR237/T10BK"
-			(at 136.525 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 136.525 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f2a0319c-c6e0-419a-aec3-86a479f8fa65")
-		)
-		(pin "4"
-			(uuid "671d497e-6df5-4058-af01-b3c57caee886")
-		)
-		(pin "5"
-			(uuid "883034b9-8906-4bc5-abe2-99aef70ecf24")
-		)
-		(pin "1"
-			(uuid "c952bcc5-b0a1-405e-91ba-e9d70784027f")
-		)
-		(pin "2"
-			(uuid "bd8ee4ab-d702-4936-a7f9-a7bb799e4946")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2515,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 59.69 64.135 0)
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,6 +2708,153 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.825 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4400696b-6796-45cc-9a97-bd9d455f7b1e")
+		(property "Reference" "#PWR010"
+			(at 123.825 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.825 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.825 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.825 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.825 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c5c379-d433-4729-b7e0-6cb26ee82a98")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLR237/T10BK:PLR237_T10BK")
+		(at 136.525 57.785 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6429e999-105c-4d53-acd4-423b21fc943a")
+		(property "Reference" "J2"
+			(at 143.51 76.8349 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PLR237/T10BK"
+			(at 143.51 79.3749 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Audio:PLR237-T10BK"
+			(at 136.525 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PLR237/T10BK"
+			(at 136.525 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.525 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7cb2e24-085f-45b2-bc30-ed10433ef96d")
+		)
+		(pin "4"
+			(uuid "66cf9647-f714-4f9b-a9c2-3ee3f3d5bb00")
+		)
+		(pin "3"
+			(uuid "9cb7985c-e287-4502-95be-c514f1091065")
+		)
+		(pin "2"
+			(uuid "1f158108-aca2-489a-9117-9beacdee0eee")
+		)
+		(pin "5"
+			(uuid "3e082d80-ab4a-4644-94db-4693e07f7f94")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3054,7 +3150,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.53 64.135 0)
+			(at 46.355 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,4 +1,4 @@
-26776405570431091
+26776406086267622
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8518,13 +8518,6 @@ Plug_3.5mm_CUI_SP-3541
 0
 4
 4
-Connector_Audio
-RCJ-043
-CUI/Same Sky RCJ-043 RCA Jack, Horizontal
-RCA jack audio connector
-0
-2
-2
 Connector_Audio
 Untitled
 
@@ -93680,6 +93673,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RCJ-042
+CUI_RCJ-042
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
