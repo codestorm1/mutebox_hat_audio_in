@@ -4847,12 +4847,6 @@
 		(uuid "d57dcfee-5058-4fc2-a68b-05f9a48f685b")
 	)
 	(junction
-		(at 82.55 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db6f8496-74ef-4c08-b1b8-d2e546787091")
-	)
-	(junction
 		(at 76.2 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5455,6 +5449,16 @@
 			(type default)
 		)
 		(uuid "20f2afc2-2083-427d-a7bd-5461d4998cc3")
+	)
+	(wire
+		(pts
+			(xy 76.2 33.02) (xy 104.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "22aea9aa-c8b4-4e4d-80d4-fe7a0e64d9a0")
 	)
 	(wire
 		(pts
@@ -6568,16 +6572,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.955 114.935) (xy 21.59 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0cc7bde-50e3-4a47-8128-0b7fc13f458a")
-	)
-	(wire
-		(pts
 			(xy 193.04 154.94) (xy 187.96 154.94)
 		)
 		(stroke
@@ -6998,16 +6992,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 104.14 33.02)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d6406adb-52e2-452e-ad25-65a4c24b8834")
-	)
-	(wire
-		(pts
 			(xy 167.64 86.36) (xy 167.64 91.44)
 		)
 		(stroke
@@ -7065,16 +7049,6 @@
 			(type default)
 		)
 		(uuid "d8a3e615-009a-49b5-bf1a-8ab881cd482d")
-	)
-	(wire
-		(pts
-			(xy 76.2 33.02) (xy 82.55 33.02)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "db2e3db7-15ce-4746-9808-5b50a0533060")
 	)
 	(wire
 		(pts
@@ -7425,16 +7399,6 @@
 			(justify right bottom)
 		)
 		(uuid "1a04dd3c-a998-471b-a6ad-d738b9730bca")
-	)
-	(label "ID_SCL"
-		(at 100.33 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28cc0d46-7a8d-4c3b-8c53-d5a776b1d5a9")
 	)
 	(label "GPIO5"
 		(at 31.75 63.5 0)
@@ -11569,71 +11533,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 82.55 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3aa770d-b92b-4ea3-a3db-4181fe48b9e3")
-		(property "Reference" "#FLG04"
-			(at 82.55 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 82.55 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5f59a9f-fa15-49ad-bba1-e4a46ab497e1")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

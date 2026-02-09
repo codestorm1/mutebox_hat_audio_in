@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "DIR9001")(type "KiCad")(uri "/Users/bryan/Downloads/DIR9001.kicad_sym")(options "")(descr ""))
+  (lib (name "DIR9001")(type "KiCad")(uri "${KIPRJMOD}/libraries/2026-02-08_00-08-21.kicad_sym")(options "")(descr ""))
 )
