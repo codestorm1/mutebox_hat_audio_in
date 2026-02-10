@@ -4985,10 +4985,6 @@
 		(uuid "7a265989-22c6-4280-8693-37822ec19e31")
 	)
 	(no_connect
-		(at 100.33 48.26)
-		(uuid "8a419168-eb47-472d-9298-44d815b1c295")
-	)
-	(no_connect
 		(at 100.33 58.42)
 		(uuid "940b82ce-03b8-4be4-a5e0-088232a4b1a0")
 	)
@@ -6382,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 48.26) (xy 100.33 48.26)
+			(xy 73.66 48.26) (xy 102.235 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7601,7 +7597,7 @@
 		(uuid "b64a2cd2-1bcf-4d65-ac61-508537c93d3e")
 	)
 	(label "GPIO24"
-		(at 100.33 48.26 180)
+		(at 99.06 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7807,6 +7803,28 @@
 		(uuid "4c45616c-c737-415e-ae20-0bafa999fce8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.4353 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TOSLINK Error"
+		(shape input)
+		(at 102.235 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54565507-dee2-4b9a-b4a0-c19a67a15f01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6805 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

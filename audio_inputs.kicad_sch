@@ -1573,10 +1573,6 @@
 		(uuid "23b6641a-7a5d-48d6-9bbd-87234f4d5403")
 	)
 	(no_connect
-		(at 138.43 97.79)
-		(uuid "3444c0fa-74cb-4ebd-b63c-f5ad389b2b24")
-	)
-	(no_connect
 		(at 67.31 115.57)
 		(uuid "3678b487-32d5-4a21-8a5a-cdc84ca6b00d")
 	)
@@ -1696,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 158.75 99.06)
+			(xy 156.845 115.57) (xy 156.845 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 115.57) (xy 158.75 115.57)
+			(xy 138.43 115.57) (xy 156.845 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1816,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 99.06) (xy 165.1 99.06)
+			(xy 156.845 99.06) (xy 165.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2086,6 +2082,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 97.79) (xy 140.335 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88abbd3-928c-40e8-829a-141f6060e1fc")
+	)
+	(wire
+		(pts
 			(xy 149.225 143.51) (xy 152.4 143.51)
 		)
 		(stroke
@@ -2144,28 +2150,6 @@
 		)
 		(uuid "e93729ff-8883-48c3-a29b-6e32004f0b5c")
 	)
-	(global_label "GPIO23_OPT_LOCK"
-		(shape input)
-		(at 100.965 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0dd34e3e-5663-4ef5-998d-e072840e5df2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.3415 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TOSLINK_BCLK"
 		(shape input)
 		(at 62.865 120.65 180)
@@ -2205,6 +2189,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TOSLINK Error"
+		(shape input)
+		(at 140.335 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df5ed3e8-5d30-4054-8cfb-7fd9fc2ec754")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7805 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2806,7 +2812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccc36b18-3a14-4222-bcf7-73abe31e68be")
-		(property "Reference" "C5"
+		(property "Reference" "C19"
 			(at 153.035 139.7 0)
 			(effects
 				(font
@@ -2860,7 +2866,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
-					(reference "C5")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de028b3a-8610-4302-8514-ed2e5d9b0971")
-		(property "Reference" "C4"
+		(property "Reference" "C18"
 			(at 143.51 139.065 0)
 			(effects
 				(font
@@ -2995,7 +3001,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/69671d55-966b-4bba-8a79-dc8715674913"
-					(reference "C4")
+					(reference "C18")
 					(unit 1)
 				)
 			)
