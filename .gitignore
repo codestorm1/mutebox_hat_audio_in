@@ -1,1 +1,4 @@
 *.zip
+/bak
+/production
+/output

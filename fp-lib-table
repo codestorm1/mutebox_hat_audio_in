@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "RCJ-042")(type "KiCad")(uri "${KIPRJMOD}/mutebox.pretty")(options "")(descr ""))
   (lib (name "DIR9001_newfoot")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints.pretty")(options "")(descr ""))
+  (lib (name "PCM1862DBT")(type "KiCad")(uri "/Users/bryan/Downloads/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/Users/bryan/Downloads/ul_PCM1862DBT (1)/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

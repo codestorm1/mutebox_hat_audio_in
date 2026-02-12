@@ -59,24 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|134512000|100000000|9578caae-8474-47fc-8c82-f15a25502190|a581c464-41a0-4b0e-96b9-433072946f53",
-          ""
-        ],
-        [
-          "silk_edge_clearance|142812000|100000000|9578caae-8474-47fc-8c82-f15a25502190|a95cf49c-2392-4ff1-ac78-9fd935bf902a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|146650000|100000000|9578caae-8474-47fc-8c82-f15a25502190|3363365b-ebae-4349-8533-766d3cc30050",
-          ""
-        ],
-        [
-          "silk_edge_clearance|154950000|100000000|9578caae-8474-47fc-8c82-f15a25502190|0c43b75d-d829-448f-9f2d-4e62ce57541b",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -119,7 +102,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
@@ -161,7 +144,7 @@
         "min_track_width": 0.25,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -635,7 +618,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "",
+      "pos_files": "output/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -645,7 +628,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -749,6 +732,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
