@@ -10331,7 +10331,7 @@
 		(dnp no)
 		(uuid "c0b20bb1-ca2c-46fd-a463-996a8bd2ed11")
 		(property "Reference" "TP13"
-			(at 77.978 39.624 0)
+			(at 77.47 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)

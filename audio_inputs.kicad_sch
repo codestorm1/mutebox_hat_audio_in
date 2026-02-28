@@ -1981,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 95.885) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8adaee-6305-4a6d-839f-96a8aa35f158")
+	)
+	(wire
+		(pts
 			(xy 149.225 110.49) (xy 138.43 110.49)
 		)
 		(stroke
@@ -2480,7 +2490,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "258cea95-bb5a-4ba5-9ce7-d184d42bae60")
 		(property "Reference" "TP6"
 			(at 57.15 113.5379 0)
@@ -2492,7 +2501,7 @@
 			)
 		)
 		(property "Value" "TP_TOSLINK_LRCLK"
-			(at 57.15 116.0779 0)
+			(at 35.56 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2860,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66af61b6-a0a1-4ba9-8e9d-e159f545349f")
 		(property "Reference" "TP7"
 			(at 59.69 116.0779 0)
@@ -2863,7 +2871,7 @@
 			)
 		)
 		(property "Value" "TP_TOSLINK_BCLK"
-			(at 59.69 118.6179 0)
+			(at 41.275 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3083,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9f24985-2084-417c-bdaa-ce9d46437367")
 		(property "Reference" "TP8"
 			(at 62.23 118.6179 0)
@@ -3087,7 +3094,7 @@
 			)
 		)
 		(property "Value" "TP_TOSLINK_DOUT"
-			(at 62.23 121.1579 0)
+			(at 46.355 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3209,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 139.7 97.79 0)
+		(at 139.7 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3211,7 +3218,7 @@
 		(fields_autoplaced yes)
 		(uuid "b38bf729-ef95-4785-ba4f-0209d79292d5")
 		(property "Reference" "TP4"
-			(at 142.24 93.2179 0)
+			(at 142.24 91.3129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3227,7 @@
 			)
 		)
 		(property "Value" "TP_TOSLINK_ERROR"
-			(at 142.24 95.7579 0)
+			(at 142.24 93.8529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3236,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 144.78 97.79 0)
+			(at 144.78 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 97.79 0)
+			(at 144.78 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,7 +3254,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 139.7 97.79 0)
+			(at 139.7 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
