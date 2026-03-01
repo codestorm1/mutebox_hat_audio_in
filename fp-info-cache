@@ -1,4 +1,4 @@
-26801208041023565
+26810061038804755
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74787,6 +74787,20 @@ PCM1862DBT
 0
 30
 30
+PCM1862DBT
+PW28-L
+
+DIR9001PW 
+0
+28
+28
+PCM1862DBT
+PW28-M
+
+DIR9001PW 
+0
+28
+28
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -93743,6 +93757,27 @@ Undefined or Miscellaneous
 0
 5
 5
+RCJ-042
+PW28
+
+DIR9001PW 
+0
+28
+28
+RCJ-042
+PW28-L
+
+DIR9001PW 
+0
+28
+28
+RCJ-042
+PW28-M
+
+DIR9001PW 
+0
+28
+28
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
