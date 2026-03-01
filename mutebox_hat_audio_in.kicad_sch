@@ -2856,6 +2856,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4238,6 +4421,12 @@
 		(uuid "a76136a9-2ffc-4468-82c9-6a4f9d3a356e")
 	)
 	(junction
+		(at 123.19 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ce29d8-d116-4573-9326-2264e4c0a264")
+	)
+	(junction
 		(at 167.64 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4310,10 +4499,10 @@
 		(uuid "d05f71aa-34f4-4d81-b902-ac85229c580f")
 	)
 	(junction
-		(at 120.65 156.21)
+		(at 120.015 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da2ddac2-24b5-447f-b67e-a1685d8b2b60")
+		(uuid "d264b896-6a3c-41e1-8d38-4dbd6c2bffe0")
 	)
 	(junction
 		(at 76.2 68.58)
@@ -4835,6 +5024,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 66.675) (xy 135.255 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb22e26-e385-473d-b4dc-2846ae0e78da")
+	)
+	(wire
+		(pts
 			(xy 173.99 82.55) (xy 180.34 82.55)
 		)
 		(stroke
@@ -4872,6 +5071,16 @@
 			(type default)
 		)
 		(uuid "1f111585-9f59-4c6a-86a4-161929195ff3")
+	)
+	(wire
+		(pts
+			(xy 135.255 66.675) (xy 137.16 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209effea-ea9d-489b-bee3-28b76661ef01")
 	)
 	(wire
 		(pts
@@ -5145,6 +5354,16 @@
 	)
 	(wire
 		(pts
+			(xy 122.555 69.215) (xy 124.46 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccb425d-1c2b-485f-b28d-c704f35bc3f3")
+	)
+	(wire
+		(pts
 			(xy 62.865 127) (xy 62.865 131.445)
 		)
 		(stroke
@@ -5232,6 +5451,16 @@
 			(type default)
 		)
 		(uuid "47a0b528-b2e1-44d6-bb97-a1661421cfea")
+	)
+	(wire
+		(pts
+			(xy 114.935 69.215) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4826e6f7-f311-48f1-8c9c-36d61cda517f")
 	)
 	(wire
 		(pts
@@ -5865,13 +6094,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 156.21) (xy 120.65 156.21)
+			(xy 109.855 156.21) (xy 120.015 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96701b7f-494d-4392-811b-32f0b226d8e8")
+		(uuid "9509eb52-aef0-4bb6-8281-4a82ee18705d")
 	)
 	(wire
 		(pts
@@ -5915,6 +6144,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.015 156.21) (xy 143.51 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fd4b86-bffd-4516-bf4a-a1661b83f0f5")
+	)
+	(wire
+		(pts
 			(xy 135.89 44.45) (xy 137.16 44.45)
 		)
 		(stroke
@@ -5942,6 +6181,16 @@
 			(type default)
 		)
 		(uuid "9d1d717b-8c68-474b-a4be-182e42424001")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.675) (xy 132.08 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a288d3a9-da58-423e-9cab-73799bc3ce14")
 	)
 	(wire
 		(pts
@@ -6215,6 +6464,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c888b97f-c4ac-4b33-b38b-a7170c5467c8")
+	)
+	(wire
+		(pts
 			(xy 36.83 131.445) (xy 50.8 131.445)
 		)
 		(stroke
@@ -6225,7 +6484,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 133.35 77.47)
+			(xy 120.65 77.47) (xy 123.19 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6342,16 +6601,6 @@
 			(type default)
 		)
 		(uuid "deb7af12-c2f1-42e9-9926-091f752f0814")
-	)
-	(wire
-		(pts
-			(xy 120.65 156.21) (xy 143.51 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debb938d-2e5e-418c-94c1-1df3279f8391")
 	)
 	(wire
 		(pts
@@ -8036,45 +8285,32 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoint:5016")
-		(at 130.81 159.385 0)
+		(lib_id "Device:LED")
+		(at 128.27 69.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d715d7f-010a-4b31-95ff-3e00c738fd56")
-		(property "Reference" "TP15"
-			(at 133.35 158.1149 0)
+		(uuid "0be63b84-fbea-4fc1-9dc5-c54a75fde0bf")
+		(property "Reference" "D3"
+			(at 127.635 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5016"
-			(at 133.35 160.6549 0)
+		(property "Value" "LED"
+			(at 128.905 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "5016:KEYSTONE_5016"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 159.385 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 128.27 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,8 +8318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 159.385 0)
+		(property "Datasheet" "~"
+			(at 128.27 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,143 +8327,34 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Keystone Electronics"
-			(at 130.81 159.385 0)
+		(property "Description" "Light emitting diode"
+			(at 128.27 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.29 mm"
-			(at 130.81 159.385 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 128.27 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Package" "NON STANDARD-1 Keystone"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "cb6f3aaf-d136-4078-a55c-e03bc2ed371c")
 		)
-		(property "Price" "None"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/5016/Keystone/view-part/?ref=eda"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "D"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5016/Keystone/view-part/?ref=snap"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "5016"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Test Point Compact SMT Phos Bronze/Silver 1000pc Tape & Reel | Keystone Electronics 5016"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "5016"
-			(at 130.81 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "63b38dc9-15c8-4d3c-8624-d3ee0ae0de23")
+		(pin "2"
+			(uuid "323fe8f6-b662-4fd1-93ee-d399bc403608")
 		)
 		(instances
-			(project ""
+			(project "mutebox_hat_audio_in"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP15")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8600,6 +8727,204 @@
 		)
 	)
 	(symbol
+		(lib_id "TestPoint:5016")
+		(at 120.015 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ccb81ed-cda5-43dd-bd59-439ba7099765")
+		(property "Reference" "TP9"
+			(at 121.92 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5016"
+			(at 121.92 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:KEYSTONE_5016"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.29 mm"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-1 Keystone"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5016/Keystone/view-part/?ref=eda"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5016/Keystone/view-part/?ref=snap"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5016"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Compact SMT Phos Bronze/Silver 1000pc Tape & Reel | Keystone Electronics 5016"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5016"
+			(at 120.015 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "8075c341-ebf3-4538-a77b-029c8078b59a")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 50.165 100.965 0)
 		(unit 1)
@@ -8809,6 +9134,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.745 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34516b8b-f399-485c-861d-7c94b76b0fae")
+		(property "Reference" "R2"
+			(at 118.745 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 118.745 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 118.745 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.745 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.745 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5df6c896-9c59-4128-8aea-b80971a1297f")
+		)
+		(pin "1"
+			(uuid "038df1d8-2f84-418f-bbff-36478bfacaa8")
+		)
+		(instances
+			(project "mutebox_hat_audio_in"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9033,10 +9425,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3dbf896e-3d9a-4977-8bad-57b50750484c")
 		(property "Reference" "TP14"
-			(at 35.56 100.8379 0)
+			(at 27.305 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9436,7 @@
 			)
 		)
 		(property "Value" "TP_5V"
-			(at 35.56 103.3779 0)
+			(at 27.305 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,204 +9478,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TestPoint:5016")
-		(at 120.65 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40abeec8-95ff-4cbd-8b9a-8bb414437060")
-		(property "Reference" "TP9"
-			(at 123.19 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5016"
-			(at 123.19 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "5016:KEYSTONE_5016"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.29 mm"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON STANDARD-1 Keystone"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/5016/Keystone/view-part/?ref=eda"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "D"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5016/Keystone/view-part/?ref=snap"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "5016"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Test Point Compact SMT Phos Bronze/Silver 1000pc Tape & Reel | Keystone Electronics 5016"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "5016"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "25ce1edd-5ec5-4b15-b2d4-501d8d3bd491")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10876,7 +11069,7 @@
 		(dnp no)
 		(uuid "c0b20bb1-ca2c-46fd-a463-996a8bd2ed11")
 		(property "Reference" "TP13"
-			(at 77.47 47.625 0)
+			(at 79.375 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
