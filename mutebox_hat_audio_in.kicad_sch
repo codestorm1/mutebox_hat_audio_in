@@ -4912,6 +4912,16 @@
 	)
 	(wire
 		(pts
+			(xy 94.615 139.065) (xy 94.615 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f686103-8cc5-44dc-a86b-512b0e565ddd")
+	)
+	(wire
+		(pts
 			(xy 162.56 34.29) (xy 167.64 34.29)
 		)
 		(stroke
@@ -6412,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 156.21) (xy 94.615 128.27)
+			(xy 94.615 156.21) (xy 94.615 146.685)
 		)
 		(stroke
 			(width 0)
@@ -7893,7 +7903,7 @@
 		(at 66.04 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ad464a")
@@ -8070,6 +8080,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 94.615 142.875 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0319b1f8-553a-450a-8312-82c295b1ac5a")
+		(property "Reference" "R3"
+			(at 96.52 141.6049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 96.52 144.1449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 96.393 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 94.615 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 94.615 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 94.615 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d90bbb7-4710-4de2-baff-aa9caa35d877")
+		)
+		(pin "2"
+			(uuid "f4851f81-d01b-41dd-bf94-407f9c438b35")
+		)
+		(instances
+			(project "mutebox_hat_audio_in"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "APA102:APA102")
 		(at 36.83 116.84 0)
 		(unit 1)
@@ -8177,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0805R1"
 			(at 128.905 72.39 0)
 			(effects
 				(font
@@ -8474,7 +8563,7 @@
 		(at 162.56 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b016a9c-b572-41fa-b4b7-7bda87b3fe30")
@@ -8523,6 +8612,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "025384ab-0145-4102-a7cd-534ca744dff1")
 		)
@@ -8540,7 +8638,7 @@
 		(at 162.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8582,6 +8680,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 162.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 162.56 41.91 0)
 			(effects
 				(font
@@ -8871,7 +8978,7 @@
 		(at 95.885 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9000,6 +9107,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 95.885 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7f3cd67-913a-4859-8220-b3fcf7824201")
 		)
@@ -9060,6 +9176,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 118.745 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17471"
+			(at 118.745 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9423,7 @@
 		(at 33.02 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3dbf896e-3d9a-4977-8bad-57b50750484c")
@@ -9732,7 +9857,7 @@
 		(at 41.91 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9782,6 +9907,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c8dd17a-cc7a-4e5b-8607-36d8014b9298")
 		)
@@ -9799,7 +9933,7 @@
 		(at 162.56 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9841,6 +9975,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 162.56 34.29 0)
 			(effects
 				(font
@@ -10114,7 +10257,7 @@
 		(at 162.56 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7eb60079-c7b5-4148-855d-a0c7ad0471cd")
@@ -10155,6 +10298,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -10714,7 +10866,7 @@
 		(at 95.885 122.555 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10843,6 +10995,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 95.885 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0ca53b5-da18-4a5d-8db1-d9042693242d")
 		)
@@ -10863,7 +11024,7 @@
 		(at 81.28 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b20bb1-ca2c-46fd-a463-996a8bd2ed11")
@@ -10912,6 +11073,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b87b4791-2b9a-4880-87ba-ee31e04eefde")
 		)
@@ -10929,7 +11099,7 @@
 		(at 165.1 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c17573af-71ab-46ad-895a-9a6303f73479")
@@ -10970,6 +11140,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -11273,7 +11452,7 @@
 		(at 163.83 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e4cb77b8-d4aa-4264-9a47-72ed6bc39b32")
@@ -11314,6 +11493,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 163.83 106.68 0)
 			(effects
 				(font
@@ -11465,7 +11653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C149504"
+		(property "LCSC" "C17414"
 			(at 133.35 73.66 0)
 			(effects
 				(font

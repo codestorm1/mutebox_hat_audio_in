@@ -654,11 +654,11 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
@@ -748,7 +748,7 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
+          "label": "LCSC Part Number",
           "name": "LCSC",
           "show": true
         },
@@ -835,9 +835,15 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
         }
       ],
-      "filter_string": "TP",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",

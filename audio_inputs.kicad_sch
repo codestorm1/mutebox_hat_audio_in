@@ -2706,7 +2706,7 @@
 		(at 150.495 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2756,6 +2756,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 150.495 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f31a2347-67eb-4ddc-aa7f-58d0e50f4fd8")
 		)
@@ -2773,7 +2782,7 @@
 		(at 54.61 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "258cea95-bb5a-4ba5-9ce7-d184d42bae60")
@@ -2814,6 +2823,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 54.61 118.11 0)
 			(effects
 				(font
@@ -3075,7 +3093,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0805R1"
 			(at 147.0025 92.71 0)
 			(effects
 				(font
@@ -3119,6 +3137,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17471"
+			(at 145.415 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7c0dfb9-7518-458f-85e7-1dcdff21a3e1")
 		)
@@ -3139,7 +3166,7 @@
 		(at 170.18 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3191,6 +3218,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNP" "1"
+			(at 170.18 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7cb2e24-085f-45b2-bc30-ed10433ef96d")
 		)
@@ -3220,7 +3256,7 @@
 		(at 57.15 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "66af61b6-a0a1-4ba9-8e9d-e159f545349f")
@@ -3261,6 +3297,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 57.15 120.65 0)
 			(effects
 				(font
@@ -3378,7 +3423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 147.32 88.8999 0)
 			(effects
 				(font
@@ -3443,7 +3488,7 @@
 		(at 59.7037 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9f24985-2084-417c-bdaa-ce9d46437367")
@@ -3484,6 +3529,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 59.7037 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 59.7037 123.19 0)
 			(effects
 				(font
@@ -3575,7 +3629,7 @@
 		(at 139.7 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b38bf729-ef95-4785-ba4f-0209d79292d5")
@@ -3616,6 +3670,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 139.7 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 139.7 95.885 0)
 			(effects
 				(font
@@ -3682,6 +3745,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 159.385 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17471"
+			(at 159.385 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
