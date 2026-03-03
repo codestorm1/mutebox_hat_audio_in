@@ -4912,7 +4912,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 139.065) (xy 94.615 128.27)
+			(xy 94.615 128.27) (xy 94.615 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6419,16 +6419,6 @@
 			(type default)
 		)
 		(uuid "ca0fa338-ebcb-4f93-bc52-0d4e24944a7a")
-	)
-	(wire
-		(pts
-			(xy 94.615 156.21) (xy 94.615 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6baef3-11d8-4c56-b84a-d05a84223e31")
 	)
 	(wire
 		(pts
@@ -8074,85 +8064,6 @@
 			(project "RaspberryPi-HAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 94.615 142.875 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0319b1f8-553a-450a-8312-82c295b1ac5a")
-		(property "Reference" "R3"
-			(at 96.52 141.6049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 96.52 144.1449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 96.393 142.875 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 94.615 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 94.615 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C98220"
-			(at 94.615 142.875 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d90bbb7-4710-4de2-baff-aa9caa35d877")
-		)
-		(pin "2"
-			(uuid "f4851f81-d01b-41dd-bf94-407f9c438b35")
-		)
-		(instances
-			(project "mutebox_hat_audio_in"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
 					(unit 1)
 				)
 			)
