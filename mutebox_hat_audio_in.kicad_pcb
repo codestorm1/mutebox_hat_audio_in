@@ -269,11 +269,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e7d0b9b-01d5-498d-bce9-9bfe941c09f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6feb8169-e021-40ff-83ae-8ba6ec49aa9b")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -1320,11 +1333,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42302c92-643f-44d9-86ac-e20c89b247b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/a9f24985-2084-417c-bdaa-ce9d46437367")
 		(sheetname "/Audio Inputs/")
 		(sheetfile "audio_inputs.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -1633,6 +1659,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C17471"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "904d685c-1560-4c39-9f6b-ed1a273cab0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/34516b8b-f399-485c-861d-7c94b76b0fae")
 		(sheetname "/")
@@ -1934,10 +1973,23 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0671a624-629b-4534-b2da-e01c2ab3d7bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/31bd721b-4633-4090-ad78-d9b733bec64b")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -10 5)
 			(end -2 5)
@@ -2832,7 +2884,7 @@
 		(path "/3dbf896e-3d9a-4977-8bad-57b50750484c")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -3031,10 +3083,23 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a0b0cf2-7424-4005-84ec-1bd6b3a268c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/aed15e8c-cd02-42db-b3e0-8724ea81b8fb")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -10 5)
 			(end -2 5)
@@ -3854,11 +3919,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1699c4fa-2e5d-429e-9523-1257267e475a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c0b20bb1-ca2c-46fd-a463-996a8bd2ed11")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -4169,11 +4247,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed9ed4ab-bc33-49ab-b17a-86a9ca2bfd03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/258cea95-bb5a-4ba5-9ce7-d184d42bae60")
 		(sheetname "/Audio Inputs/")
 		(sheetfile "audio_inputs.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -4447,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0805R1"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "09f9af24-d477-44fb-9568-d8d28d9a5d33")
@@ -4488,6 +4579,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b849f119-6c52-41ae-a314-124c89c4e5cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17471"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f49ce95-f7ee-4d51-a52a-6a60d7318ab7")
 			(effects
 				(font
 					(size 1 1)
@@ -4716,7 +4820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C149504"
+		(property "LCSC" "C17414"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5456,11 +5560,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5559ed4-37fb-46db-8227-ec3974633885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/752e0804-87ef-47c5-8cbb-989d918c049e")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -6070,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0805R1"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "78e71548-aeb9-4a99-8604-9830f37f651d")
@@ -6341,11 +6458,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f12a69-7f25-43b8-8c79-2c6bbd5624dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/66af61b6-a0a1-4ba9-8e9d-e159f545349f")
 		(sheetname "/Audio Inputs/")
 		(sheetfile "audio_inputs.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -6757,11 +6887,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45687953-ece5-4915-93ae-9344123728fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/b38bf729-ef95-4785-ba4f-0209d79292d5")
 		(sheetname "/Audio Inputs/")
 		(sheetfile "audio_inputs.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7596,11 +7739,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e7e3d6c-6286-4397-b908-994467867a20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2caef525-a971-43d3-b4c3-4f3e1b99a51f")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -8617,6 +8773,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C17471"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0478b573-bba9-4061-a4fd-90618849053a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/b39c5862-be05-4f9f-93bf-506c7900d99e")
 		(sheetname "/Audio Inputs/")
@@ -9030,11 +9199,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "861777ad-b816-4c8a-9e2c-ab6ade978b2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e4cb77b8-d4aa-4264-9a47-72ed6bc39b32")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -9133,11 +9315,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7be71c7-0b80-4d09-85ec-3da99190e594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c17573af-71ab-46ad-895a-9a6303f73479")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -9759,11 +9954,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12cd4a2c-12f3-45fc-ab06-cc4bba8e9b9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PLR237/T10BK_EVE")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/6429e999-105c-4d53-acd4-423b21fc943a")
 		(sheetname "/Audio Inputs/")
 		(sheetfile "audio_inputs.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.31 -2.39)
 			(end -2.31 11.11)
@@ -10517,11 +10725,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73fe7614-0fc4-460a-9f71-85074e54f886")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7eb60079-c7b5-4148-855d-a0c7ad0471cd")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -11389,7 +11610,7 @@
 		(path "/2b016a9c-b572-41fa-b4b7-7bda87b3fe30")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -11488,11 +11709,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3e0a13-4ff9-4f73-a775-22001de27828")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/69671d55-966b-4bba-8a79-dc8715674913/0df51a67-3f0e-4841-8aff-23ea27a19607")
 		(sheetname "/Audio Inputs/")
 		(sheetfile "audio_inputs.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -13568,7 +13802,7 @@
 		(path "/00000000-0000-0000-0000-000059ad464a")
 		(sheetname "/")
 		(sheetfile "mutebox_hat_audio_in.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -3.87 1.33)
 			(end -1.27 1.33)
@@ -14357,7 +14591,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d522a65f-d1a1-4d6d-8cc3-9102a429e9b6")
 	)
-	(gr_text "Audio Input HAT\n© 2026 Mutebox Labs LLC\nRev v0.1b"
+	(gr_text "Audio Input HAT\n© 2026 Mutebox Labs LLC\nRev v0.1c"
 		(at 105.25 81 90)
 		(layer "F.SilkS")
 		(uuid "fefb2613-ca93-4b99-b71a-6dc147d52ea3")
