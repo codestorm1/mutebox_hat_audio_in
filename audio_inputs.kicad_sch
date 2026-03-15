@@ -3101,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 145.415 97.79 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17471"
+		(property "LCSC" "C2994781"
 			(at 145.415 97.79 0)
 			(effects
 				(font
