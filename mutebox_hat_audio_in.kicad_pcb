@@ -16882,17 +16882,6 @@
 			)
 		)
 	)
-	(gr_text "PoE"
-		(at 161.7 50.84 0)
-		(layer "Dwgs.User")
-		(uuid "6528a76f-b7a7-4621-952f-d7da1058963a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "4.7k"
 		(at 113.6 55.3 90)
 		(layer "F.Fab")
