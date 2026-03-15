@@ -4229,7 +4229,7 @@
 		(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
 	)
 	(junction
-		(at 187.96 159.385)
+		(at 183.515 159.385)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eaffa97-bed4-46df-9354-ce7eb667c5ac")
@@ -6068,7 +6068,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 159.385) (xy 187.96 159.385)
+			(xy 179.07 159.385) (xy 183.515 159.385)
 		)
 		(stroke
 			(width 0)
@@ -6178,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 159.385) (xy 208.915 159.385)
+			(xy 183.515 159.385) (xy 208.915 159.385)
 		)
 		(stroke
 			(width 0)
@@ -6188,7 +6188,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 136.525) (xy 187.96 146.685)
+			(xy 183.515 121.285) (xy 183.515 146.685)
 		)
 		(stroke
 			(width 0)
@@ -6275,16 +6275,6 @@
 			(type default)
 		)
 		(uuid "93a84e14-cfd7-4479-bb64-38d03991fea4")
-	)
-	(wire
-		(pts
-			(xy 163.83 136.525) (xy 187.96 136.525)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9453f68b-b581-43e4-b2a3-f1235a1830e2")
 	)
 	(wire
 		(pts
@@ -6578,7 +6568,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 154.305) (xy 187.96 159.385)
+			(xy 183.515 154.305) (xy 183.515 159.385)
 		)
 		(stroke
 			(width 0)
@@ -6695,16 +6685,6 @@
 			(type default)
 		)
 		(uuid "c614472f-64b6-4327-9544-0057b1973e92")
-	)
-	(wire
-		(pts
-			(xy 163.83 121.285) (xy 163.83 136.525)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d8dc77-4d6b-460a-85fc-8764ed6cd43d")
 	)
 	(wire
 		(pts
@@ -7148,7 +7128,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 121.285) (xy 163.83 121.285)
+			(xy 161.29 121.285) (xy 183.515 121.285)
 		)
 		(stroke
 			(width 0)
@@ -7385,16 +7365,6 @@
 			(justify left bottom)
 		)
 		(uuid "8fb0631c-564a-4f96-b39b-2f827bb204a3")
-	)
-	(label "GPIO17"
-		(at 31.75 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9316d4cc-792f-4eb9-8a8b-1201587737ed")
 	)
 	(label "GPIO25"
 		(at 100.33 53.34 180)
@@ -11701,7 +11671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 150.495 0)
+		(at 183.515 150.495 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11709,7 +11679,7 @@
 		(dnp no)
 		(uuid "a9e5b0fd-04a9-4bcb-bd13-71c10ab7f5f3")
 		(property "Reference" "R4"
-			(at 186.69 149.225 0)
+			(at 182.245 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +11688,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 188.595 151.765 0)
+			(at 184.15 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.182 150.495 90)
+			(at 181.737 150.495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +11706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 150.495 0)
+			(at 183.515 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +11715,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 150.495 0)
+			(at 183.515 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +11724,7 @@
 			)
 		)
 		(property "LCSC" "C17414"
-			(at 187.96 150.495 0)
+			(at 183.515 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
