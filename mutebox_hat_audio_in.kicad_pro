@@ -67,10 +67,6 @@
         [
           "malformed_courtyard|148250003|74249999|e7e699f1-e1b4-4a77-9b84-25d7b0b99484|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "unconnected_items|145475002|73750000|F.Cu|4|3a9bf2bf-05e4-4d49-9762-0de8195a54aa|7d306cde-6df4-42aa-80d6-8fedb4e3f175",
-          ""
         ]
       ],
       "meta": {
@@ -637,7 +633,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "output/",
+      "pos_files": "./output",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -681,7 +677,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
